@@ -4,11 +4,10 @@ services:
   view:
   #コマンドを打つときに使う名前
     build: ./
-      # command: sh -c "cd /app/next-project && yarn dev" 
     command: sh -c "yarn dev"
     container_name: 'VIEW'
     ports:
-      - "3000:3000"
+      - "8080:8080"
     volumes:
       - ./:/app
     stdin_open: true
