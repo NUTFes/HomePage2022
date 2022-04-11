@@ -1,0 +1,64 @@
+.card {
+  margin: auto;
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
+  width: 33rem;
+  height: 34rem;
+  -top: 20%;
+}
+
+.center {
+  text-align: center;
+}
+
+.bigfont {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #424242;
+}
+
+.bigfont2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+
+.middlefont {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.smallfont {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.border {
+  margin: auto;
+  width: 261px;
+  height: 0px;
+  left: 56px;
+  top: 1514px;
+  border: 1px solid #424242;
+}
+
+.topspace {
+  margin-top: 3rem;
+}
+
+.topspace2 {
+  margin-top: 1rem;
+}
