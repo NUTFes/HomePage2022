@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
+import Access from '../components/common/Access'
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
       <Header/>
       <img src='/logotype.svg'/>
+      <Access/>
       <Footer/>
     </>
   )
