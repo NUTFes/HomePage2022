@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/common/Header'
+import Sns from '../components/common/Sns'
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +15,11 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap"
         />
       </Head>
+
       <Header/>
       <img src='/logotype.svg'/>
+
+      <Sns/>
     </>
   )
 }
