@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 import Access from '../components/common/Access'
+import Sns from '../components/common/Sns'
 
 const Home: NextPage = () => {
   return (
@@ -16,10 +17,13 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap"
         />
       </Head>
+
       <Header/>
       <img src='/logotype.svg'/>
       <Access/>
       <Footer/>
+
+      <Sns/>
     </>
   )
 }
