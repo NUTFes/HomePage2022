@@ -1,9 +1,9 @@
 .snsContainer {
   color: var(--accent-0);
-  position: fixed;
-  bottom: 6.4rem;
+  margin-top: 7.8rem;
   width: 100%;
   z-index: 5;
+  padding-bottom: 6.4rem;
 }
 
 .snsSubTitle{
@@ -52,7 +52,6 @@
   align-items: end;
   justify-content: center;
   margin-top: 0.75rem;
-  margin-bottom: 2rem;
 }
 
 .snsButtonGroup {

@@ -22,7 +22,6 @@ const Home: NextPage = () => {
       <img src='/logotype.svg'/>
       <Access/>
       <Footer/>
-
       <Sns/>
     </>
   )
