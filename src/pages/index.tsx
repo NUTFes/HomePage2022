@@ -4,6 +4,7 @@ import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 import Access from '../components/common/Access'
 import Sns from '../components/common/Sns'
+import NextUpdate from '../components/common/NextUpdate'
 
 const Home: NextPage = () => {
   return (
@@ -20,9 +21,10 @@ const Home: NextPage = () => {
 
       <Header/>
       <img src='/logotype.svg'/>
+      <NextUpdate/>
       <Access/>
-      <Footer/>
       <Sns/>
+      <Footer/>
     </>
   )
 }
