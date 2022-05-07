@@ -81,3 +81,67 @@
   font-size: 1.2rem;
   color: #424242;
 }
+@media screen and (min-width: 960px)
+{
+  .snsSubTitle{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20rem;
+    margin-bottom: 2rem;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6rem;
+    line-height: 2.5rem;
+    color: #000;
+  }
+  
+  .snsLogoFacebook img {
+    height: 10rem;
+    width: 10rem;
+    margin-right: 16.5rem;
+    margin-left: 16.5rem;
+  }
+  
+  .snsLogoTwitter img { 
+    height: 10rem;
+    width: 10rem;
+    margin-right: 16.5rem;
+    margin-left: 16.5rem;
+  }
+  
+  .snsLogoInstagram img {
+    height: 10rem;
+    width: 10rem;
+    margin-right: 16.5rem;
+    margin-left: 16.5rem;
+  }
+  /* .snsButtonGroup {
+    margin-right: 23rem;
+    margin-left: 23rem;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 6rem;
+    color: #424242;
+    ;
+  }
+  
+  .snsButtonNext {
+    margin-right: 23rem;
+    margin-left: 23rem;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 6rem;
+    color: #424242;
+  }
+  
+  .snsButtonAccess {
+    margin-right: 23rem;
+    margin-left: 23rem;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 6rem;
+    color: #424242;
+  } */
+}
