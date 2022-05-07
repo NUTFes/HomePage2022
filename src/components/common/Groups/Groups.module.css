@@ -141,6 +141,22 @@
   margin-right: 1.5rem;
 }
 
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 297px;
+  height: 57px;
+  margin: auto;
+  margin-top: 2.1rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  background-color: #00AFCC;
+}
+
 .card img {
   margin: auto;
   width: 139px;
