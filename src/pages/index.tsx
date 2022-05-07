@@ -6,6 +6,7 @@ import Access from '../components/common/Access'
 import Sns from '../components/common/Sns'
 import Groups from '../components/common/Groups'
 import NextUpdate from '../components/common/NextUpdate'
+import TopPage from '../components/common/TopPage'
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
 
       <Header/>
       <img src='/logotype.svg'/>
+      <TopPage/> 
       <Groups/>
       <NextUpdate/>
       <Access/>
