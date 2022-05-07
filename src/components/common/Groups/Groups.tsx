@@ -37,7 +37,7 @@ const Groups: FC = () => {
           <div className={s.smallfont3}>友人と同じ目的に向かって<br/>一生懸命に活動したことは<br/>一生の思い出になります！</div>
         </div>
       </div>
-      <a className={s.button} >申し込みはこちらをタップ</a>
+      <a href="https://group-manager.nutfes.net/" className={s.button} >申し込みはこちらをタップ</a>
     </div>
   </div>
   );
