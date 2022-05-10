@@ -5,7 +5,6 @@ import s from './Groups.module.css'
 const Groups: FC = () => {
   return (
   <div className={s.center}>
-    <div className={s.bottom}>
       <div className={s.center}>
         <hr className={s.border}></hr>
           <p className={s.bigfont}>Participating Groups</p>
@@ -28,8 +27,8 @@ const Groups: FC = () => {
             <div className={s.middlefont2}>パフォーマンス・演奏</div>
             <div className={s.smallfont2}>日頃の練習している<br/>ダンスや音楽の成果を<br/>見せて技大祭を一緒に<br/>盛り上げましょう！</div>
           </div>
-          <img src='/DSC_0467 1.jpg'/>
-        </div>
+            <img src='/DSC_0467 1.jpg'/>
+      </div>
       <div className={s.card} >
         <img src='/DSC_0801 1.jpg'/>
         <div className={s.column}>
@@ -37,9 +36,10 @@ const Groups: FC = () => {
           <div className={s.smallfont3}>友人と同じ目的に向かって<br/>一生懸命に活動したことは<br/>一生の思い出になります！</div>
         </div>
       </div>
+    <div className={s.bottom}>
       <a href="https://group-manager.nutfes.net/" className={s.button} >申し込みはこちらをタップ</a>
     </div>
-  </div>
+</div>
   );
 };
 
