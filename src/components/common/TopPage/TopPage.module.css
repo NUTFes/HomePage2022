@@ -145,6 +145,7 @@
 @media screen and (min-width: 960px)
 {
   .header1 {
+    margin-top: 60rem;
     position: relative;
     font-family: "Noto Sans JP";
     font-style: normal;

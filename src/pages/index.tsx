@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Header/>
-      <img width="212" src='/newlogotype.svg'/ >
+      
       <TopPage/> 
       <Groups/>
       <NextUpdate/>
