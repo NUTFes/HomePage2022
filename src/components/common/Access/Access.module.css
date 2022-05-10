@@ -1,5 +1,6 @@
 .card {
   margin: auto;
+  border-radius: 5px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
   width: 33rem;
@@ -7,16 +8,12 @@
   -top: 20%;
 }
 
-.center {
-  text-align: center;
-}
-
 .bigfont {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
   text-align: center;
   color: #424242;
 }
@@ -28,6 +25,15 @@
   line-height: 26px;
   text-align: center;
   color: #424242;
+}
+
+.border {
+  margin: auto;
+  width: 261px;
+  height: 0px;
+  left: 56px;
+  top: 1514px;
+  border: 1px solid #424242;
 }
 
 .middlefont {
@@ -45,15 +51,6 @@
   line-height: 17px;
 }
 
-.border {
-  margin: auto;
-  width: 261px;
-  height: 0px;
-  left: 56px;
-  top: 1514px;
-  border: 1px solid #424242;
-}
-
 .topspace {
   margin-top: 3rem;
 }
@@ -61,3 +58,103 @@
 .topspace2 {
   margin-top: 1rem;
 }
+
+.center {
+  text-align: center;
+}
+
+.gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.gmap iframe {
+position: absolute;
+left: 0;
+top: 0;
+margin-left: 10%;
+height: 100%;
+width: 80%;
+}
+
+@media screen and (min-width: 960px)
+{
+  .card {
+    margin: auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    max-width:  3000px;
+    width: 70%;
+    height: 2400px;
+    -top: -20%;
+  } 
+  .bigfont {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 175px;
+    text-align: center;
+    color: #424242;
+    margin-top: 1%;
+  } 
+  .bigfont2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 130px;
+    text-align: center;
+    color: #424242;
+  } 
+  .border {
+    max-width:  200.0rem;
+    width: 50%;
+    height: 0px;
+    left: 5.6rem;
+    top: 151.4rem;
+    border: 0.2px solid #424242;
+  } 
+  .middlefont {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8rem;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 100px;
+  }
+  .smallfont {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 17px;
+    margin-bottom: 100px;
+  }
+  .topspace {
+    margin-top: 30rem;
+  } 
+  .topspace2 {
+    margin-top: 10rem;
+  }
+  
+  .gmap {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%; 
+    position: relative;
+  }
+  .gmap iframe {
+     position: absolute;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 80%;
+  }   
+}
+
+
+
+
+

@@ -59,7 +59,7 @@
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 350;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: left;
   color: #424242;
   padding-top: 15px;
@@ -95,15 +95,15 @@
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .border {
   margin: auto;
-  width: 261px;
+  width: 26.1rem;
   height: 0px;
-  left: 56px;
-  top: 1514px;
+  left: 5.6rem;
+  top: 151.4rem;
   border: 1px solid #424242;
 }
 
@@ -121,4 +121,113 @@
   -webkit-transform: skew(-17deg);
   transform: skew(-17deg);
   z-index: -1;
+}
+
+@media screen and (min-width: 960px)
+{
+  .border {
+    max-width:  200.0rem;
+    width: 50%;
+    height: 0px;
+    left: 5.6rem;
+    top: 151.4rem;
+    border: 0.2rem solid #424242;
+  }
+  .bigfont {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 175px;
+    text-align: center;
+    color: #424242;
+    margin-top: 1%;
+  } 
+  .bigfont2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 130px;
+    text-align: center;
+    color: #424242;
+  } 
+  .bigfont3 {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    border-bottom: 2100px rgba(0, 175, 204, 0.5);
+    font-size: 280px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+  }
+  .middlefont {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8rem;
+    line-height: 20rem;
+    color: #000000;
+    margin-bottom: 100px;
+  }
+  .middlefont2 {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #424242;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+  }
+  .smallfont {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 17px;
+    margin-bottom: 100px;
+  }
+  .smallfont2 {
+    margin-top: 20px;
+    margin-left: 660px;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100px;
+  }
+  .card {
+    margin: auto;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    max-width:  3000px;
+    width: 70%;
+    height: 2000px;
+    -top: -20%;
+    margin-bottom: 10%;
+  } 
+  .minicard {
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    height: 1000px;
+    background: #FFFFFF;
+  }
+  .card span{
+    display: block;
+    width: 30%;
+    height: 50px;
+    background: rgba(0, 175, 204, 0.5);
+    margin-left: 1110px;
+    margin-top: -30px;
+    -webkit-transform: skew(-17deg);
+    -moz-transform: skew(-17deg);
+    transform: skew(-17deg);
+    z-index: -1;
+  }
 }

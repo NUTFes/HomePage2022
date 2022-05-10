@@ -14,9 +14,9 @@ const Sns: FC = () => {
           <a href='https://www.instagram.com/nutfes/' className={s.snsLogoInstagram}><img src="/Instagram.svg"/></a>
         </div>
         <div className={s.snsButton}>
-          <a className={s.snsButtonGroup}>参加団体</a>
+          {/* <a className={s.snsButtonGroup}>参加団体</a>
           <a className={s.snsButtonNext}>次回更新日</a>
-          <a className={s.snsButtonAccess}>アクセス</a>
+          <a className={s.snsButtonAccess}>アクセス</a> */}
         </div>
       </div>
   );
