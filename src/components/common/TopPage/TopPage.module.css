@@ -130,7 +130,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-
   color: #424242;
 }
 
@@ -142,4 +141,103 @@
   line-height: 26px;
 
   color: #424242;
+}
+@media screen and (min-width: 960px)
+{
+  .header1 {
+    position: relative;
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 50rem;
+    margin-left: -160%;
+    z-index: 1;
+  
+    color: #000000;
+  }
+
+  .header2 {
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18rem;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+  }
+
+  .header3 {
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 10rem;
+    z-index: 1;
+  }
+
+  .title1 span {
+    display: block;
+    background: linear-gradient(rgba(0, 175, 204, 0.5));
+    height: 50px;
+    margin-top: -22rem;
+    margin-left: -160%;
+    width: 50rem;
+    -webkit-transform: skew(-17deg);
+    transform: skew(-17deg);
+    z-index: -1;
+  }
+
+  .headerline2_1 {
+    display: block;
+    background: linear-gradient(rgba(0, 175, 204, 0.5));
+    height: 50px;
+    margin-top: -9rem;
+    width: 160rem;
+    -webkit-transform: skew(-17deg);
+    transform: skew(-17deg);
+    z-index: -1;
+  }
+  .headerline2_2 {
+    display: block;
+    background: linear-gradient(rgba(0, 175, 204, 0.5));
+    height: 50px;
+    margin-top: -9rem;
+    width: 102rem;
+    -webkit-transform: skew(-17deg);
+    transform: skew(-17deg);
+    z-index: -1;
+  }
+
+  .date {
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 26px;
+    color: #424242;
+  }
+
+  .date span {
+    font-family: "Noto Sans JP";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18rem;
+    line-height: 26px;
+  
+    color: #424242;
+  }
+  .box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 500px;
+    margin-top: 100rem;
+    margin-bottom: 60rem;
+    background: #ffffff;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.31);
+  }
 }

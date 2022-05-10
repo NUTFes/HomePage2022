@@ -17,7 +17,7 @@ const TopPage: FC = () => {
           <span className={s.headerline2_1} />
         </div>
         <div>
-          <p className={s.header3}>学校開催</p>
+          <p className={s.header3}>学校祭開催</p>
           <span className={s.headerline2_2} />
         </div>
       </div>
