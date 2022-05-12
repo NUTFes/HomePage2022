@@ -30,7 +30,6 @@
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 35px;
-  z-index: 1;
 
   color: #000000;
 }
@@ -43,7 +42,8 @@
   width: 91px;
   -webkit-transform: skew(-17deg);
   transform: skew(-17deg);
-  z-index: -1;
+
+
 }
 
 .title2 {
@@ -77,7 +77,6 @@
   font-size: 36px;
   text-align: center;
   color: #000000;
-  z-index: 1;
 }
 
 .headerline2_1 {
@@ -88,7 +87,6 @@
   width: 325px;
   -webkit-transform: skew(-17deg);
   transform: skew(-17deg);
-  z-index: -1;
 }
 
 .header3 {
@@ -99,7 +97,6 @@
   text-align: center;
   color: #000000;
   margin-top: 42px;
-  z-index: 1;
 }
 
 .headerline2_2 {
@@ -110,7 +107,6 @@
   width: 210px;
   -webkit-transform: skew(-17deg);
   transform: skew(-17deg);
-  z-index: -1;
 }
 
 .box {
@@ -120,9 +116,12 @@
   align-items: center;
   padding: 20px 25px;
   margin-top: 50px;
+  margin-left: 5%;
+  width: 90%;
   margin-bottom: 60px;
   background: #ffffff;
   box-shadow: 0px 4px 4px 3px rgba(0, 175, 204, 0.31);
+
 }
 .date {
   font-family: "Noto Sans JP";
@@ -131,17 +130,66 @@
   font-size: 18px;
   line-height: 26px;
   color: #424242;
+
 }
 
 .date span {
   font-family: "Noto Sans JP";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 26px;
-
   color: #424242;
 }
+/* 
+背景画像切り替えcss */
+.background {
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+  height: 480px;
+  margin-top: -20%;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  opacity: 0; 
+  animation: change-img-anim 150s infinite;
+  animation-iteration-count: infinite;
+}
+
+.image:nth-of-type(1) {
+  animation-delay: 0s;
+  z-index: -5;
+}
+.image:nth-of-type(2) {
+  animation-delay: 30s;
+  z-index: -4;
+}
+.image:nth-of-type(3) {
+  animation-delay: 60s;
+  z-index: -3;
+}
+.image:nth-of-type(4) {
+  animation-delay: 90s;
+  z-index: -2;
+}
+.image:nth-of-type(5) {
+  animation-delay: 120s;
+  z-index: -1;
+}
+
+@keyframes change-img-anim {
+  0%{ opacity: 0.3;}
+  5%{ opacity: 0.5;}
+  10%{opacity: 1.0;}
+  20%{ opacity: 0.3;}
+  25%{ opacity: 0.1;}
+  30%{ opacity: 0;}  
+}
+
 @media screen and (min-width: 960px)
 {
   .header1 {
