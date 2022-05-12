@@ -141,8 +141,8 @@
   line-height: 26px;
   color: #424242;
 }
-/* 
-背景画像切り替えcss */
+
+/* 背景画像切り替えcss */
 .background {
   position: relative;
   width: 500px;
@@ -193,7 +193,7 @@
 @media screen and (min-width: 960px)
 {
   .header1 {
-    margin-top: 60rem;
+    margin-top: 90rem;
     position: relative;
     font-family: "Noto Sans JP";
     font-style: normal;
@@ -202,7 +202,6 @@
     line-height: 50rem;
     margin-left: -160%;
     z-index: 1;
-  
     color: #000000;
   }
 
@@ -284,9 +283,58 @@
     justify-content: center;
     align-items: center;
     padding: 200px 500px;
-    margin-top: 100rem;
-    margin-bottom: 60rem;
+    margin-top: 130rem;
+    margin-bottom: 40rem;
     background: #ffffff;
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.31);
   }
+
+  /* 背景画像切り替えcss */
+.background {
+  position: relative;
+  width: 60%;
+  max-width: 100%;
+  height: 100%;
+  margin-top: -28%;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  opacity: 0; 
+  animation: change-img-anim 150s infinite;
+  animation-iteration-count: infinite;
+}
+
+.image:nth-of-type(1) {
+  animation-delay: 0s;
+  z-index: -5;
+}
+.image:nth-of-type(2) {
+  animation-delay: 30s;
+  z-index: -4;
+}
+.image:nth-of-type(3) {
+  animation-delay: 60s;
+  z-index: -3;
+}
+.image:nth-of-type(4) {
+  animation-delay: 90s;
+  z-index: -2;
+}
+.image:nth-of-type(5) {
+  animation-delay: 120s;
+  z-index: -1;
+}
+
+@keyframes change-img-anim {
+  0%{ opacity: 0.3;}
+  5%{ opacity: 0.5;}
+  10%{opacity: 1.0;}
+  20%{ opacity: 0.3;}
+  25%{ opacity: 0.1;}
+  30%{ opacity: 0;}  
+}
+
 }
