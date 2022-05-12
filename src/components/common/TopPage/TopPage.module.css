@@ -193,7 +193,7 @@
 @media screen and (min-width: 960px)
 {
   .header1 {
-    margin-top: 90rem;
+    margin-top: 150rem;
     position: relative;
     font-family: "Noto Sans JP";
     font-style: normal;
@@ -263,7 +263,7 @@
     font-family: "Noto Sans JP";
     font-style: normal;
     font-weight: 400;
-    font-size: 15rem;
+    font-size: 12rem;
     line-height: 26px;
     color: #424242;
   }
@@ -282,9 +282,9 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 200px 500px;
-    margin-top: 130rem;
-    margin-bottom: 40rem;
+    padding: 200px;
+    margin-top: 150rem;
+    margin-bottom: 30rem;
     background: #ffffff;
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.31);
   }
@@ -295,13 +295,13 @@
   width: 60%;
   max-width: 100%;
   height: 100%;
-  margin-top: -28%;
+  margin-top: -33%;
 }
 
 .image {
   position: absolute;
   width: 100%;
-  height: 85%;
+  height: 90%;
   opacity: 0; 
   animation: change-img-anim 150s infinite;
   animation-iteration-count: infinite;
