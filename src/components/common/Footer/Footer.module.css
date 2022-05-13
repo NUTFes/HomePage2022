@@ -41,7 +41,7 @@
   .footerContainer footer {
     background-color: #00AFCC;
     display: flex;
-    height: 60rem;
+    height: 20rem;
     width: 100%;
     justify-content: center;
   }
@@ -49,13 +49,14 @@
   .footerContainer img {
     margin-top: 0%;
     text-align: center;
-    margin-top: 3px;
-    height: 50rem;
-    width: 45rem;
+    margin-bottom: -6rem;
+    height: 18rem;
+    width: 18rem;
   }
 
   .footerLinks p {
-    font-size: 50px;
+    margin-top: 5rem;
+    font-size: 20px;
     transform: scale(0.6);
     font-weight: 100;
     color: white;

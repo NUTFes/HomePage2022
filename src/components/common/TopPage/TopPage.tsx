@@ -10,6 +10,10 @@ const TopPage: FC = () => {
 	      <img className={s.image} src="background3.jpg" />
         <img className={s.image} src="background4.jpg" />
 	      <img className={s.image} src="background5.jpg" />
+        <img className={s.image} src="background6.jpg" />
+	      <img className={s.image} src="background7.jpg" />
+	      <img className={s.image} src="backgroung8.jpg" />
+        <img className={s.image} src="backgroung9.jpg" />
         <div className={s.title1}>
           <div>
            <p className={s.header1}>第41回</p>

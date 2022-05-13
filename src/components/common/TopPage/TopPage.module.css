@@ -142,7 +142,6 @@
   color: #424242;
 }
 
-/* 背景画像切り替えcss */
 .background {
   position: relative;
   width: 500px;
@@ -192,15 +191,23 @@
 
 @media screen and (min-width: 960px)
 {
+  .conteinar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+  }
+  
   .header1 {
-    margin-top: 150rem;
+    margin-top: 10rem;
     position: relative;
     font-family: "Noto Sans JP";
     font-style: normal;
     font-weight: 400;
-    font-size: 15rem;
+    font-size: 4rem;
     line-height: 50rem;
-    margin-left: -160%;
+    margin-right: 12rem;
     z-index: 1;
     color: #000000;
   }
@@ -209,7 +216,7 @@
     font-family: "Noto Sans JP";
     font-style: normal;
     font-weight: 400;
-    font-size: 18rem;
+    font-size: 6rem;
     text-align: center;
     color: #000000;
     z-index: 1;
@@ -219,7 +226,7 @@
     font-family: "Noto Sans JP";
     font-style: normal;
     font-weight: 400;
-    font-size: 18rem;
+    font-size: 6rem;
     text-align: center;
     color: #000000;
     margin-top: 10rem;
@@ -229,10 +236,10 @@
   .title1 span {
     display: block;
     background: linear-gradient(rgba(0, 175, 204, 0.5));
-    height: 50px;
-    margin-top: -22rem;
-    margin-left: -160%;
-    width: 50rem;
+    height: 2rem;
+    margin-top: -24rem;
+    margin-right: 10rem;
+    width: 22rem;
     -webkit-transform: skew(-17deg);
     transform: skew(-17deg);
     z-index: -1;
@@ -241,9 +248,9 @@
   .headerline2_1 {
     display: block;
     background: linear-gradient(rgba(0, 175, 204, 0.5));
-    height: 50px;
-    margin-top: -9rem;
-    width: 160rem;
+    height: 2rem;
+    margin-top: -3rem;
+    width: 70rem;
     -webkit-transform: skew(-17deg);
     transform: skew(-17deg);
     z-index: -1;
@@ -251,9 +258,9 @@
   .headerline2_2 {
     display: block;
     background: linear-gradient(rgba(0, 175, 204, 0.5));
-    height: 50px;
-    margin-top: -9rem;
-    width: 102rem;
+    height: 2rem;
+    margin-top: -3rem;
+    width: 42rem;
     -webkit-transform: skew(-17deg);
     transform: skew(-17deg);
     z-index: -1;
@@ -263,7 +270,7 @@
     font-family: "Noto Sans JP";
     font-style: normal;
     font-weight: 400;
-    font-size: 12rem;
+    font-size: 3rem;
     line-height: 26px;
     color: #424242;
   }
@@ -272,69 +279,82 @@
     font-family: "Noto Sans JP";
     font-style: normal;
     font-weight: 400;
-    font-size: 18rem;
+    font-size: 5rem;
     line-height: 26px;
-  
     color: #424242;
   }
   .box {
-    display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 200px;
-    margin-top: 150rem;
-    margin-bottom: 30rem;
+    margin-top: 24rem;
     background: #ffffff;
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.31);
   }
 
-  /* 背景画像切り替えcss */
 .background {
   position: relative;
-  width: 60%;
-  max-width: 100%;
-  height: 100%;
-  margin-top: -33%;
+  height: 120rem;
+  width: 80rem;
+  justify-content: center;
 }
 
 .image {
   position: absolute;
-  width: 100%;
-  height: 90%;
+  height: 100rem;
   opacity: 0; 
-  animation: change-img-anim 150s infinite;
+  animation: change-img-anim 80s infinite;
   animation-iteration-count: infinite;
 }
 
 .image:nth-of-type(1) {
   animation-delay: 0s;
-  z-index: -5;
+  z-index: -1;
 }
 .image:nth-of-type(2) {
-  animation-delay: 30s;
-  z-index: -4;
+  animation-delay: 10s;
+  z-index: -2;
 }
 .image:nth-of-type(3) {
-  animation-delay: 60s;
+  animation-delay: 20s;
   z-index: -3;
 }
 .image:nth-of-type(4) {
-  animation-delay: 90s;
-  z-index: -2;
+  animation-delay: 30s;
+  z-index: -4;
 }
 .image:nth-of-type(5) {
-  animation-delay: 120s;
-  z-index: -1;
+  animation-delay: 40s;
+  z-index: -5;
+}
+.image:nth-of-type(6) {
+  animation-delay: 50s;
+  z-index: -6;
+}
+.image:nth-of-type(7) {
+  animation-delay: 60s;
+  z-index: -7;
+}
+.image:nth-of-type(8) {
+  animation-delay: 70s;
+  z-index: -8;
+}
+.image:nth-of-type(9) {
+  animation-delay: 80s;
+  z-index: -9;
 }
 
+
 @keyframes change-img-anim {
-  0%{ opacity: 0.3;}
-  5%{ opacity: 0.5;}
-  10%{opacity: 1.0;}
-  20%{ opacity: 0.3;}
-  25%{ opacity: 0.1;}
-  30%{ opacity: 0;}  
+  0%{ opacity: 0.2;}
+  1%{ opacity: 0.4;}
+  2%{ opacity: 0.6;}
+  3%{ opacity: 0.8;}
+  4%{ opacity: 1.0;}
+  7%{ opacity: 0.6;}
+  8%{ opacity: 0.3;}
+  9%{ opacity: 0.2;}
+  10%{ opacity: 0;}
 }
 
 }
