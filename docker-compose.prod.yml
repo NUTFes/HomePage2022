@@ -1,0 +1,16 @@
+version: '3'
+services:
+  view:
+    build: ./
+    command: sh -c "npm run build && npm run export"
+    container_name: 'HP_VIEW'
+    volumes:
+      - ./:/app
+  nginx:
+    image: nginx:1.17
+    container_name: 'HP_WEB'
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./out:/var/www/vhosts/www.nutfes.net
+    ports:
+      - 80:80
