@@ -150,45 +150,6 @@
   margin-top: -20%;
 }
 
-.image {
-  position: absolute;
-  width: 100%;
-  height: 85%;
-  opacity: 0; 
-  animation: change-img-anim 150s infinite;
-  animation-iteration-count: infinite;
-}
-
-.image:nth-of-type(1) {
-  animation-delay: 0s;
-  z-index: -5;
-}
-.image:nth-of-type(2) {
-  animation-delay: 30s;
-  z-index: -4;
-}
-.image:nth-of-type(3) {
-  animation-delay: 60s;
-  z-index: -3;
-}
-.image:nth-of-type(4) {
-  animation-delay: 90s;
-  z-index: -2;
-}
-.image:nth-of-type(5) {
-  animation-delay: 120s;
-  z-index: -1;
-}
-
-@keyframes change-img-anim {
-  0%{ opacity: 0.3;}
-  5%{ opacity: 0.5;}
-  10%{opacity: 1.0;}
-  20%{ opacity: 0.3;}
-  25%{ opacity: 0.1;}
-  30%{ opacity: 0;}  
-}
-
 @media screen and (min-width: 960px)
 {
   .conteinar {
@@ -283,6 +244,7 @@
     line-height: 26px;
     color: #424242;
   }
+
   .box {
     flex-flow: column;
     justify-content: center;
@@ -292,69 +254,10 @@
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.31);
   }
 
-.background {
-  position: relative;
-  height: 120rem;
-  width: 80rem;
-  justify-content: center;
-}
-
-.image {
-  position: absolute;
-  height: 100rem;
-  opacity: 0; 
-  animation: change-img-anim 80s infinite;
-  animation-iteration-count: infinite;
-}
-
-.image:nth-of-type(1) {
-  animation-delay: 0s;
-  z-index: -1;
-}
-.image:nth-of-type(2) {
-  animation-delay: 10s;
-  z-index: -2;
-}
-.image:nth-of-type(3) {
-  animation-delay: 20s;
-  z-index: -3;
-}
-.image:nth-of-type(4) {
-  animation-delay: 30s;
-  z-index: -4;
-}
-.image:nth-of-type(5) {
-  animation-delay: 40s;
-  z-index: -5;
-}
-.image:nth-of-type(6) {
-  animation-delay: 50s;
-  z-index: -6;
-}
-.image:nth-of-type(7) {
-  animation-delay: 60s;
-  z-index: -7;
-}
-.image:nth-of-type(8) {
-  animation-delay: 70s;
-  z-index: -8;
-}
-.image:nth-of-type(9) {
-  animation-delay: 80s;
-  z-index: -9;
-}
-
-
-@keyframes change-img-anim {
-  0%{ opacity: 0.2;}
-  1%{ opacity: 0.4;}
-  2%{ opacity: 0.6;}
-  3%{ opacity: 0.8;}
-  4%{ opacity: 1.0;}
-  7%{ opacity: 0.6;}
-  8%{ opacity: 0.3;}
-  9%{ opacity: 0.2;}
-  10%{ opacity: 0;}
-}
-
+  .background {
+    position: relative;
+    height: 120rem;
+    width: 80rem;
+    justify-content: center;
+  }
 }
