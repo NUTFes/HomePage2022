@@ -8,9 +8,9 @@ const Header: FC = () => {
       <div className={s.headerimg}>
         <img src='/newlogotype.svg'/ >
       </div>
-    <div className={s.headerContainer}>
-      <div className={s.headerLinks}>
-        {/* <button className={s.headerButton}><span/><span/>MENU</button> */}
+      <div className={s.headerContainer}>
+        <div className={s.headerLinks}>
+          {/* <button className={s.headerButton}><span/><span/>MENU</button> */}
         </div>
       </div>
     </div>

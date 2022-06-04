@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
+  width: 33rem;
+  height: 12.9rem
+}
+
+@media (min-width: 768px){ 
+  .card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: 80rem;
+    max-width: 90rem;
+    height: 30rem
+  }
+}
