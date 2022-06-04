@@ -25,7 +25,7 @@ const NextUpdate: FC = () => {
         </div>
         <span />
       <div className={s.minicard}>
-        <p className={s.middlefont}>・ゲスト情報<br/>・技大祭企画情報<br/>・参加団体情報</p>
+        <p className={s.middlefont}>・技大祭企画情報<br/>・参加団体情報</p>
         </div>
     </div>
   </div>
