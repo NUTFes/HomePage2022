@@ -11,12 +11,12 @@
   align-items: start;
   justify-content: center;
   margin-bottom: 0.45rem;
-  font-family: 'Noto Sans';
+  font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 300;
   font-size: 1.8rem;
   line-height: 2.5rem;
-  color: #000;
+  color: #424242;
 }
 
 .snsLogo{
@@ -89,33 +89,33 @@
     justify-content: center;
     margin-top: 20rem;
     margin-bottom: 2rem;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 300;
     font-size: 4rem;
     line-height: 2.5rem;
-    color: #000;
+    color: #424242;
   }
   
   .snsLogoFacebook img {
     height: 5rem;
     width: 5rem;
-    margin-right: 16.5rem;
-    margin-left: 16.5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
   
   .snsLogoTwitter img { 
     height: 5rem;
     width: 5rem;
-    margin-right: 16.5rem;
-    margin-left: 16.5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
   
   .snsLogoInstagram img {
     height: 5rem;
     width: 5rem;
-    margin-right: 16.5rem;
-    margin-left: 16.5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
   /* .snsButtonGroup {
     margin-right: 23rem;

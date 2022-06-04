@@ -65,7 +65,7 @@
     display: inline-block;
     transition: all .4s;
     position: absolute;
-    left: 1;
+    left: 1;  
     height: 1rem;
     background-color: #FFF;
    }
