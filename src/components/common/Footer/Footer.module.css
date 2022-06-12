@@ -41,7 +41,7 @@
   .footerContainer footer {
     background-color: #00AFCC;
     display: flex;
-    height: 20rem;
+    height: 15rem;
     width: 100%;
     justify-content: center;
   }
@@ -50,8 +50,8 @@
     margin-top: 0%;
     text-align: center;
     margin-bottom: -6rem;
-    height: 18rem;
-    width: 18rem;
+    height: 13rem;
+    width: 12rem;
   }
 
   .footerLinks p {

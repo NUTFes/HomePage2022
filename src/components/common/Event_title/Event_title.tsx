@@ -6,14 +6,14 @@ import g from '../../../assets/globals.module.css';
 const Event_title: FC = () => {
   return (
     <div className={s.titleContainer}>
-      <span className={s.border}/>
-      <div className={s.font1}>
+      <span className={g.border}/>
+      <div className={g.bigfont1}>
         Event information
       </div>
-      <div className={s.font2}>
+      <div className={g.bigfont2}>
         技大祭企画情報
       </div>
-      <span className={s.border}/>
+      <span className={g.border}/>
     </div>
   );
 };
