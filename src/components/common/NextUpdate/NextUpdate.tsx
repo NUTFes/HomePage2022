@@ -1,15 +1,16 @@
 import React, {FC} from "react";
 import s from './NextUpdate.module.css'
+import g from '../../../assets/globals.module.css'
 
 
 const NextUpdate: FC = () => {
   return (
   <div>
     <div className={s.center}>
-      <hr className={s.border}></hr>
-        <p className={s.bigfont}>NextUpdate</p>
-        <p className={s.bigfont2}>次回更新日</p>
-      <hr className={s.border}></hr>
+      <hr className={g.border}></hr>
+        <p className={g.bigfont1}>NextUpdate</p>
+        <p className={g.bigfont2}>次回更新日</p>
+      <hr className={g.border}></hr>
     </div>
     <div className={s.topspace}></div>
     <div className={s.card}>
