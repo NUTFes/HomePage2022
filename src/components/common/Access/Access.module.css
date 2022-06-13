@@ -8,49 +8,6 @@
   -top: 20%;
 }
 
-.bigfont {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 2.4rem;
-  line-height: 3.5rem;
-  text-align: center;
-  color: #424242;
-}
-
-.bigfont2 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  color: #424242;
-}
-
-.border {
-  margin: auto;
-  width: 261px;
-  height: 0px;
-  left: 56px;
-  top: 1514px;
-  border: 1px solid #424242;
-}
-
-.middlefont {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-  color: #424242;
-}
-
-.smallfont {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 17px;
-}
-
 .topspace {
   margin-top: 3rem;
 }
@@ -91,49 +48,6 @@ width: 80%;
     height: 80rem;
     -top: -10%;
   } 
-  .bigfont {
-    font-family: 'Noto Sans JP';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 6rem;
-    line-height: 10.5rem;
-    text-align: center;
-    color: #424242;
-    margin-top: 1%;
-  } 
-  .bigfont2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 5rem;
-    text-align: center;
-    color: #424242;
-  } 
-  .border {
-    max-width:  200.0rem;
-    width: 70rem;
-    height: 0px;
-    left: 5.6rem;
-    top: 151.4rem;
-    border: 0.2px solid #424242;
-  } 
-  .middlefont {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 3rem;
-    color: #424242;
-    margin-bottom: 3rem;
-    padding-top: 3rem;
-    margin-top: rem;
-  }
-  .smallfont {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: rem;
-    margin-bottom: 4rem;
-    color: #424242;
-  }
   
   .gmap {
     height: 0;

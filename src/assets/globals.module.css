@@ -1,0 +1,107 @@
+.card {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
+  width: fit-content;
+  height: fit-content;
+}
+
+.bigfont1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #424242;
+}
+
+.bigfont2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+
+.middlefont1 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #424242;
+}
+
+.smallfont1 {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 14px;
+  color: #424242;
+}
+
+.border {
+  margin: auto;
+  width: 261px;
+  height: 0px;
+  left: 56px;
+  top: 1514px;
+  border: 1px solid #424242;
+}
+
+@media (min-width: 768px){ 
+  .card {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .border {
+    max-width:  200.0rem;
+    width: 70rem;
+    height: 0px;
+    left: 5.6rem;
+    top: 151.4rem;
+    border: 0.2px solid #424242;
+  }
+
+  .bigfont1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 10.5rem;
+    text-align: center;
+    color: #424242;
+    margin-top: 1%;
+  } 
+
+  .bigfont2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #424242;
+  } 
+
+  .middlefont1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #424242;
+  }
+
+  .smallfont1 {
+    font-style: normal;
+    font-weight: 380;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #424242;
+  }
+}

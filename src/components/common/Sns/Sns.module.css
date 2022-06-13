@@ -3,7 +3,6 @@
   margin-top: 7.8rem;
   width: 100%;
   z-index: 5;
-  padding-bottom: 2.0rem;
 }
 
 .snsSubTitle{
@@ -100,22 +99,24 @@
   .snsLogoFacebook img {
     height: 5rem;
     width: 5rem;
-    margin-right: 5rem;
     margin-left: 5rem;
+    margin-right: 5rem;
   }
   
   .snsLogoTwitter img { 
     height: 5rem;
     width: 5rem;
-    margin-right: 5rem;
     margin-left: 5rem;
+    margin-right: 5rem;
+
   }
   
   .snsLogoInstagram img {
     height: 5rem;
     width: 5rem;
-    margin-right: 5rem;
     margin-left: 5rem;
+    margin-right: 5rem;
+
   }
   /* .snsButtonGroup {
     margin-right: 23rem;
