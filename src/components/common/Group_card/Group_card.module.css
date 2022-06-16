@@ -1,0 +1,6 @@
+.center {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  align-items: center;
+}
