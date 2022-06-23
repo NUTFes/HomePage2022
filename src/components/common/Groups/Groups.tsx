@@ -21,20 +21,22 @@ const Groups: FC = () => {
             <p className={s.box1}>
               <div className={g.middlefont1}>展示・体験</div>
             </p>
-            <p className={g.smallfont1}>
-              <div className={s.box2}>日本の文化や世界の文化<br/>を伝えましょう！<br/>また、技大の特徴である科学<br/>を楽しんでもらいましょう</div>
-            </p>
+            <div className={s.box2}>
+              <p className={g.smallfont1}>日本の文化や世界の文化<br/>を伝えましょう！<br/>また、技大の特徴である科学<br/>を楽しんでもらいましょう</p>
+            </div>
           </div>
         </div>
         <div className={s.card} >
           <div className={s.rightSpace}></div>
           <div className={s.column}>
+            <div>
             <p className={s.box1}>
               <div className={g.middlefont1}>パフォーマンス・演奏</div>
             </p>
-            <p className={g.smallfont1}>
-              <div className={s.box2}>日頃の練習している<br/>ダンスや音楽の成果を<br/>見せて技大祭を一緒に<br/>盛り上げましょう！</div>
-            </p>
+            </div>
+            <div className={s.box2}>
+              <p className={g.smallfont1}>日頃の練習している<br/>ダンスや音楽の成果を<br/>見せて技大祭を一緒に<br/>盛り上げましょう！</p>
+            </div>
           </div>
               <img src='/DSC_0467 1.jpg'/>
         </div>
@@ -44,9 +46,9 @@ const Groups: FC = () => {
             <p className={s.box1}>
               <div className={g.middlefont1}>卒業するまでに楽しい<br/>出を残したい方</div>
             </p>
-            <p className={g.smallfont1}>
-              <div className={s.box2}>友人と同じ目的に向かって<br/>一生懸命に活動したことは<br/>一生の思い出になります！</div>
-            </p>
+            <div className={s.box2}>
+              <p className={g.smallfont1}>友人と同じ目的に向かって<br/>一生懸命に活動したことは<br/>一生の思い出になります！</p>
+            </div>
           </div>
         </div>
       <div className={s.bottom}>
