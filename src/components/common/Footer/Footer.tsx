@@ -6,7 +6,7 @@ const Footer: FC = () => {
     <section className={s.footerContainer}>
       <footer>
         <div className={s.footerLinks}>
-          <img src='/nutfeslogo_white.png'/> 
+          <img src='/nutfeslogo_black.png'/> 
           <p>©第41回技大祭実行委員会</p>     
         </div>
       </footer>
