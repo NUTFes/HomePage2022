@@ -1,24 +1,27 @@
-/* .headerButton {
+.headerButton {
   height: 6rem;
   width: 6rem;
-  padding: 0.9rem;
-  margin-left: auto;
+  position: absolute;
+  right: 0;
   display: flex;
   align-items: end;
-  justify-content: left;
+  justify-content: start;
   border: none;
   background-color:#00AFCC;
   color: #FFF;
   font-size: 1.2rem;
   font-weight: 100;
-} */
+}
+
+  .topspan{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 6rem;
+  }
 
 .headerimg {
   width: 45%;
-}
-
-/* .headerLinks {
-  position: relative;
 }
 
 .headerButton span{
@@ -32,59 +35,58 @@
 
  .headerButton span:nth-of-type(1) {
   top:1.5rem; 
-    width:3.2rem;
+  width:3.2rem;
 }
 
 .headerButton span:nth-of-type(2) {
   top:2.6rem;
-    width:2.4rem;
-} */
+  width:2.4rem;
+}
 
 @media screen and (min-width:960px) {
   .headerimg {
     position: absolute;
     top: 0;
     left: 0.1rem;
+    width: 36rem;
   }
-  /* .headerButton {
-    height: 30rem;
-    width: 30rem;
+
+  .headerButton {
+    height: 11rem;
+    width: 11rem;
     padding: 0.9rem;
-    margin-left: auto;
-    margin-right: 20%;
     display: flex;
     align-items: end;
-    justify-content: left;
+    justify-content: start;
     border: none;
     background-color:#00AFCC;
     color: #FFF;
-    font-size: 6rem;
+    font-size: 2.32rem;
     font-weight: 100;
   }
+
   .headerButton span{
     display: inline-block;
     transition: all .4s;
     position: absolute;
     left: 1;  
-    height: 1rem;
+    height: 0.58rem;
     background-color: #FFF;
    }
    .headerButton span:nth-of-type(1) {
-    top:14rem; 
-      width:5rem;
+    top:2.9rem; 
+      width: 6.18rem;
   } 
   
   .headerButton span:nth-of-type(2) {
-    top:10rem;
-    width:10rem;
-  } */
-
-  .topspan{
-    position: relative;
-    margin: auto;
-    margin-bottom: 6rem;
-    width: 80rem;
-    height: 10rem;
+    top:5.02rem;
+    width:4.64rem;
   }
 
+  .topspan{
+    display: flex;
+    width: 80rem;
+    height: 11.6rem;
+    margin: auto;
+  }
 }

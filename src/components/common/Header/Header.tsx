@@ -10,7 +10,7 @@ const Header: FC = () => {
       </div>
       <div className={s.headerContainer}>
         <div className={s.headerLinks}>
-          {/* <button className={s.headerButton}><span/><span/>MENU</button> */}
+          {<button className={s.headerButton}><span/><span/>MENU</button>}
         </div>
       </div>
     </div>
