@@ -1,9 +1,9 @@
 .card {
   display: flex;
-  align-items: center;
-  background: #FFFFFF;
+  justify-content: center;
+  background: #ffffff;
   box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
-  width: fit-content;
+  width: 100%;
   height: fit-content;
 }
 
@@ -51,18 +51,18 @@
   border: 1px solid #424242;
 }
 
-@media (min-width: 768px){ 
+@media (min-width: 768px) {
   .card {
     display: flex;
-    align-items: center;
-    background: #FFFFFF;
+    justify-content: center;
+    background: #ffffff;
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
-    width: fit-content;
+    width: 80rem;
     height: fit-content;
   }
 
   .border {
-    max-width:  200.0rem;
+    max-width: 200rem;
     width: 70rem;
     height: 0px;
     left: 5.6rem;
@@ -78,7 +78,7 @@
     text-align: center;
     color: #424242;
     margin-top: 1%;
-  } 
+  }
 
   .bigfont2 {
     font-style: normal;
@@ -87,7 +87,7 @@
     line-height: 5rem;
     text-align: center;
     color: #424242;
-  } 
+  }
 
   .middlefont1 {
     font-style: normal;
