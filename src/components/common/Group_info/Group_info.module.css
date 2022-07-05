@@ -1,0 +1,42 @@
+.card {
+  margin: auto;
+  margin-bottom: 55px;  
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
+  width: 33rem;
+  height: 40rem;
+  -top: 20%;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width: 960px)
+{
+  .card {
+    margin: auto;
+    border-radius: 1px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: 80rem;
+    height: 150rem;
+    -top: -20%;
+    padding-top: 5rem;
+    margin-bottom: 20rem;
+  } 
+
+  .card_flex{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card img {
+    padding-top: 5rem;
+    margin-right: 34rem;
+    width: 40rem;
+    height: 30rem;
+  }
+
+  .bigfont{
+    font-size: 2rem;
+  }
+}

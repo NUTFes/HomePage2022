@@ -4,8 +4,9 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
   width: 33rem;
-  height: 34rem;
+  height: 43rem;
   -top: 20%;
+  padding-top: 2rem;
 }
 
 .topspace {
@@ -45,8 +46,9 @@ width: 80%;
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
     max-width:  100rem;
     width: 80rem;
-    height: 80rem;
+    height: 100rem;
     -top: -10%;
+    padding-top: 5rem;
   } 
   
   .gmap {

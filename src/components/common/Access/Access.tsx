@@ -6,6 +6,7 @@ import g from '../../../assets/globals.module.css'
 const Access: FC = () => {
   return (
   <div>
+    <div className={s.card}>
     <div className={s.center}>
       <hr className={g.border}></hr>
         <p className={g.bigfont1}>Access</p>
@@ -13,7 +14,6 @@ const Access: FC = () => {
       <hr className={g.border}></hr>
     </div>
     <div className={s.topspace}></div>
-    <div className={s.card} >
       <div className={s.center}>
         <p className={g.middlefont1}>長岡技術科学大学のアクセス</p>
         <p className={g.smallfont1}>所在地: 〒940-2188 新潟県長岡市上富岡町1603-1</p>

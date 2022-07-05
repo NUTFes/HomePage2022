@@ -6,6 +6,7 @@ import g from '../../../assets/globals.module.css'
 const NextUpdate: FC = () => {
   return (
   <div>
+    <div className={s.card}>
     <div className={s.center}>
       <hr className={g.border}></hr>
         <p className={g.bigfont1}>NextUpdate</p>
@@ -13,12 +14,11 @@ const NextUpdate: FC = () => {
       <hr className={g.border}></hr>
     </div>
     <div className={s.topspace}></div>
-    <div className={s.card}>
       <div className={s.topspace}></div>
         <p className={s.smallfont2}>2022</p>
         <div className={s.center}>
           <p className={s.bigfont3}>
-            7.11
+            9.1
           </p>  
           <p className={s.middlefont2}>
             土
@@ -26,7 +26,7 @@ const NextUpdate: FC = () => {
         </div>
         <span />
       <div className={s.minicard}>
-        <p className={s.middlefont}>・技大祭企画情報<br/>・参加団体情報</p>
+        <p className={s.middlefont}>当日スケジュール<br/>学長・委員長挨拶<br/>協賛一覧<br/>募金一覧<br/></p>
         </div>
     </div>
   </div>
