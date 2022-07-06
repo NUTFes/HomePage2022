@@ -27,16 +27,23 @@
   .card_flex{
     display: flex;
     justify-content: center;
+    width: 70rem;
   }
 
   .card img {
     padding-top: 5rem;
-    margin-right: 34rem;
-    width: 40rem;
+    padding-left: 1rem;
+    width: 38rem;
     height: 30rem;
   }
 
   .bigfont{
-    font-size: 2rem;
+    font-size: 4rem;
+    padding-left: 7rem;
+    padding-top: 7rem;
+    padding-left: 1 rem;
+  }
+  .font{
+    font-size: 3rem;
   }
 }

@@ -27,7 +27,7 @@ const Home: NextPage = () => {
       <Header/>
       <TopPage/> 
       <Event_info/>
-     
+      <Group_info/>
       {/* <Groups/> */}
       <NextUpdate/>
       <Access/>
