@@ -9,6 +9,7 @@ import NextUpdate from '../components/common/NextUpdate'
 import TopPage from '../components/common/TopPage'
 import Event_info from '../components/common/Event_info'
 import Group_info from '../components/common/Group_info'
+import News from '../components/common/News'
 
 const Home: NextPage = () => {
   return (
@@ -25,7 +26,8 @@ const Home: NextPage = () => {
       </Head>
 
       <Header/>
-      <TopPage/> 
+      <TopPage/>
+      <News/> 
       <Event_info/>
       <Group_info/>
       {/* <Groups/>  */}
