@@ -5,7 +5,7 @@ import g from "../../../assets/globals.module.css";
 const Group_info: FC =() => {
   return (
     <div className={s.card}>
-      <hr className={g.border}></hr>
+      <hr id ='group'className={g.border}></hr>
         <p className={g.bigfont1}>Particpating group</p>
         <p className={g.bigfont2}>参加団体情報</p>
       <hr className={g.border}></hr>

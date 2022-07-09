@@ -8,7 +8,7 @@ const News: FC =() => {
     <div className={s.card}>
     <div className={s.center}>
       <hr className={g.border}></hr>
-        <p className={g.bigfont1}>News</p>
+        <p id='news' className={g.bigfont1}>News</p>
         <p className={g.bigfont2}>お知らせ</p>
       <hr className={g.border}></hr>
     </div>

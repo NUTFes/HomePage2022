@@ -8,7 +8,7 @@ const Event_info: FC = () => {
        <div className={s.center}>
         <div className={s.card}>
         <hr className={g.border}></hr>
-            <p className={g.bigfont1}>Event information</p>
+            <p id="event" className={g.bigfont1}>Event information</p>
             <p className={g.bigfont2}>技大祭企画情報</p>
           <hr className={g.border}></hr>
           <p className={g.bigfont4}>学籍番号抽選会</p>
