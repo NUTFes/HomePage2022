@@ -18,6 +18,7 @@ const Event_info: FC = () => {
           <p className={g.bigfont4}>カラオケ大会</p>
           <p className={g.bigfont4}>ギダイジャ―</p>
           <div className={s.bottom}>
+            {/* pushする際には、本番用のリンクに変更する */}
             <a href="http://localhost:8080/planning_infor" className={s.button} >詳しい情報はこちら</a>
           </div>
         </div>

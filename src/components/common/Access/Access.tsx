@@ -5,7 +5,7 @@ import g from '../../../assets/globals.module.css'
 
 const Access: FC = () => {
   return (
-  <div>
+  <div id='access'>
     <div className={s.card}>
     <div className={s.center}>
       <hr className={g.border}></hr>
