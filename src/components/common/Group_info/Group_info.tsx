@@ -11,20 +11,20 @@ const Group_info: FC =() => {
       <hr className={g.border}></hr>
       <div className={s.card_flex}>
         <div>
-          <img src='/group_stage.jpg'/>
+          <img src='/_DSC0573 1.jpg'/>
         </div>
         <p className={s.bigfont}>ステージ<br/><p className={s.font}>音楽やダンス、<br/>国際文化に触れる</p></p>
       </div>
       <div className={s.card_flex}>
         <div>
-          <img src='/group_exh.jpg'/>
+          <img src='/DSC_0467 1.jpg'/>
         </div>
         <p className={s.bigfont}>展示<br/><p className={s.font}>新潟を始めとする<br/>世界各国の展示</p></p>
         
       </div>
       <div className={s.card_flex}>
         <div>
-          <img src='group_exp.jpg'/> 
+          <img src='DSC_0801 1.jpg'/> 
         </div>
         <p className={s.bigfont}>参加型<p className={s.font}>大人でも楽しめる<br/>体験型イベント</p></p>
         
