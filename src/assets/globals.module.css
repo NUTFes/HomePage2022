@@ -1,9 +1,10 @@
 .card {
   display: flex;
+  flex-flow: column;
   justify-content: center;
   background: #ffffff;
   box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
-  width: 100%;
+  width: 90%;
   height: fit-content;
 }
 
@@ -49,6 +50,78 @@
   left: 56px;
   top: 1514px;
   border: 1px solid #424242;
+}
+/* Event_card */
+.center1 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.center2 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.box1 {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  margin: auto;
+  width: 28.4rem;
+}
+
+.box2 {
+  margin-bottom: 1.6rem;
+}
+
+.image {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  width: 28.4rem;
+  height: 163.42px;
+}
+
+.column {
+  display: flex;
+  position: relative;
+}
+
+.column span:nth-of-type(1) {
+  position: absolute;
+  width: 28.4rem;
+  height: 0;
+  border-top: 1.6px solid #000;
+}
+
+.triangle {
+  position: absolute;
+  left: 7rem;
+  width: 0;
+  height: 0;
+  border-top: 1rem solid #000;
+  border-right: 0.9rem solid transparent;
+  border-left: 0.9rem solid transparent;
+  border-bottom: 0.9rem solid transparent;
+}
+
+.span {
+  position: absolute;
+  top: -0.03rem;
+  left: 7.17rem;
+  width: 0;
+  height: 0;
+  z-index:2;
+  border-top: 0.84rem solid #fff;
+  border-right: 0.73rem solid transparent;
+  border-left: 0.73rem solid transparent;
+  border-bottom: 0.73rem solid transparent;
+}
+
+.lineHeight {
+  line-height: 2.1rem;
 }
 
 @media (min-width: 768px) {
@@ -103,5 +176,77 @@
     font-size: 2.5rem;
     line-height: 3rem;
     color: #424242;
+  }
+/* Event_card */
+  .center1 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 6rem;
+  }
+
+  .center2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .box1 {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    margin: auto;
+    width: 70rem;
+  }
+  
+  .box2 {
+    margin-bottom: 3rem;
+  }
+  
+  .image {
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
+    width: 70rem;
+    height: 41.9rem;
+  }
+  
+  .column {
+    display: flex;
+    position: relative;
+  }
+  
+  .column span:nth-of-type(1) {
+    position: absolute;
+    width: 70rem;
+    height: 0;
+    border-top: 3.5px solid #000;
+  }
+  
+  .triangle {
+    position: absolute;
+    left: 18rem;
+    width: 0;
+    height: 0;
+    border-top: 2.1rem solid #000;
+    border-right: 2.1rem solid transparent;
+    border-left: 2.1rem solid transparent;
+    border-bottom: 2.1rem solid transparent;
+  }
+  
+  .span {
+    position: absolute;
+    top: -0.03rem;
+    left: 18.41rem;
+    width: 0;
+    height: 0;
+    z-index:2;
+    border-top: 1.7rem solid #fff;
+    border-right: 1.7rem solid transparent;
+    border-left: 1.7rem solid transparent;
+    border-bottom: 1.7rem solid transparent;
+  }
+
+  .lineHeight {
+    line-height: 4rem;
   }
 }
