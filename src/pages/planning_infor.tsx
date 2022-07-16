@@ -2,8 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Footer from '../components/common/Footer'
 import Sns from '../components/common/Sns'
-import Event_card from '../components/common/Event_card'
 import Event_title from '../components/common/Event_title'
+import Event_card1 from '../components/common/Event_card1'
+import Event_card2 from '../components/common/Event_card2'
+import Event_card3 from '../components/common/Event_card3'
+import Event_card4 from '../components/common/Event_card4'
+import Event_card5 from '../components/common/Event_card5'
+import Event_card6 from '../components/common/Event_card6'
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +25,12 @@ const Home: NextPage = () => {
       </Head>
 
       <Event_title/>
-      <Event_card/>
+      <Event_card1/>
+      <Event_card2/>
+      <Event_card3/>
+      <Event_card4/>
+      <Event_card5/>
+      <Event_card6/>
       <Sns/>
       <Footer/>
     </>
