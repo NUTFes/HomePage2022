@@ -15,7 +15,7 @@
   margin-top: 44px;
   box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
   width: 260px;
-  height: 160px;
+  height: 250px;
   background: #FFFFFF;
 }
 
@@ -45,7 +45,7 @@
 .bigfont3 {
   font-family: 'Noto Sans JP';
   font-style: normal;
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 400;
   line-height: 26px;
   text-align: center;
@@ -114,10 +114,10 @@
 
 .card span{
   display: block;
-  width: 250px;
+  width: 210px;
   height: 10px;
   background: rgba(0, 175, 204, 0.5);
-  margin-left: 35px;
+  margin-left: 66px;
   margin-top: -10px;
   -webkit-transform: skew(-17deg);
   transform: skew(-17deg);
@@ -156,9 +156,9 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     border-bottom: 210rem rgba(0, 175, 204, 0.5);
-    font-size: 5.0rem;
+    font-size: 10.0rem;
     font-weight: 400;
-    line-height: 10rem;
+    line-height: 3rem;
     text-align: center;
     color: #424242;
     display: inline-block;
@@ -215,8 +215,8 @@
     margin: auto;
     margin-top: 70px;
     box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
-    width: 60rem;
-    height: 40rem;
+    width: 70rem;
+    height: 60rem;
     background: #FFFFFF;
   }
   .card span{
@@ -224,8 +224,8 @@
     width: 50rem;
     height: 2rem;
     background: rgba(0, 175, 204, 0.5);
-    margin-left: 14rem;
-    margin-top: -4rem;
+    margin-left: 16rem;
+    margin-top: -1rem;
     -webkit-transform: skew(-17deg);
     -moz-transform: skew(-17deg);
     transform: skew(-17deg);
@@ -234,5 +234,5 @@
   .topspace {
     margin-top: 3rem;
   }
-  
+ 
 }

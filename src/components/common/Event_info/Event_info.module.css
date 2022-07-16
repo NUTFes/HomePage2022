@@ -1,0 +1,47 @@
+.card {
+  margin: auto;
+  margin-bottom: 55px;  
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
+  width: 33rem;
+  height: 35rem;
+  -top: 20%;
+  padding-top: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 297px;
+  height: 57px;
+  margin: auto;
+  margin-top: 3.1rem;
+  margin-bottom: 7rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  background-color: #00AFCC;
+}
+
+@media screen and (min-width: 960px)
+{
+  .card {
+    margin: auto;
+    border-radius: 1px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: 80rem;
+    height: 85rem;
+    -top: -20%;
+    padding-top: 5rem;
+    margin-bottom: 20rem;
+  } 
+}

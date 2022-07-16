@@ -2,7 +2,6 @@ import React, { FC } from 'react';
 import s from './Sns.module.css';
 
 const Sns: FC = () => {
-
   return (
       <div className={s.snsContainer}>
         <div className={s.snsSubTitle}>
@@ -14,9 +13,9 @@ const Sns: FC = () => {
           <a href='https://www.instagram.com/nutfes/' className={s.snsLogoInstagram}><img src="/Instagram.svg"/></a>
         </div>
         <div className={s.snsButton}>
-          {/* <a className={s.snsButtonGroup}>参加団体</a>
-          <a className={s.snsButtonNext}>次回更新日</a>
-          <a className={s.snsButtonAccess}>アクセス</a> */}
+          <a className={s.span} href='#news'>お知らせ</a>
+          <a className={s.span} href='#event'>技大祭企画</a>
+          <a className={s.span} href='#group'>参加団体</a>
         </div>
       </div>
   );
