@@ -13,7 +13,6 @@ const Modal: FC<ModalProps> = (props) => {
     if (isCloseModal){
       return(
         <>
-        {console.log("aaaaa")}
         <Modal show={isCloseModal} setShow={setIsCloseModal} />
         </>
       )
@@ -33,18 +32,18 @@ const Modal: FC<ModalProps> = (props) => {
           {props.children}
           {/* pushする際には、本番用のリンクに変更する */}
           {closeModal(isCloseModal)}
-          <a href='http://localhost:8080/' className={s.modalIndex} onClick={() => props.setShow(false)} >トップページ</a>
+          <a href={process.env.URL} className={s.modalIndex} onClick={() => props.setShow(false)} >トップページ</a>
           <a href='#news' className={s.modalSubIndex}onClick={() => props.setShow(false)}>お知らせ</a>
           <a href='#event' className={s.modalSubIndex} onClick={() => props.setShow(false)} >技大祭企画情報</a>
           <a href='#group' className={s.modalSubIndex} onClick={() => props.setShow(false)} >参加団体情報</a>
           <a href='#access' className={s.modalSubIndex} onClick={() => props.setShow(false)} >アクセス</a>
-          <a href='http://localhost:8080/' className={s.modalIndex} onClick={() => props.setShow(false)} >企画情報ページ</a>
-          <a href='http://localhost:8080/' className={s.modalSubIndex} onClick={() => props.setShow(false)} >学籍番号抽選会</a>
-          <a href='http://localhost:8080/' className={s.modalSubIndex} onClick={() => props.setShow(false)} >ポーカー大会</a>
-          <a href='http://localhost:8080/' className={s.modalSubIndex} onClick={() => props.setShow(false)} >麻雀大会</a>
-          <a href='http://localhost:8080/' className={s.modalSubIndex} onClick={() => props.setShow(false)} >ゲーム大会</a>
-          <a href='http://localhost:8080/' className={s.modalSubIndex} onClick={() => props.setShow(false)} >カラオケ大会</a>
-          <a href='http://localhost:8080/' className={s.modalSubIndex} onClick={() => props.setShow(false)} >ギダイジャ―</a>
+          <a href={process.env.URL+'/planning_infor'} className={s.modalIndex} onClick={() => props.setShow(false)} >企画情報ページ</a>
+          <a href={process.env.URL+'/planning_infor#stickee'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >学籍番号抽選会</a>
+          <a href={process.env.URL+'/planning_infor#poker'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >ポーカー大会</a>
+          <a href={process.env.URL+'/planning_infor#majan'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >麻雀大会</a>
+          <a href={process.env.URL+'/planning_infor#game'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >ゲーム大会</a>
+          <a href={process.env.URL+'/planning_infor#song'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >カラオケ大会</a>
+          <a href={process.env.URL+'/planning_infor#hero'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >ギダイジャ―</a>
         </div>
       </div>
     </div>

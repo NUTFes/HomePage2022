@@ -3,7 +3,7 @@ import g from '../../../assets/globals.module.css';
 
 const Event_card3: FC = () => {
   return (
-    <div className={g.center1}>
+    <div id='game'className={g.center1}>
       <div className={g.card}>
         <div className={g.box1}>
           <p className={g.bigfont1}>ゲーム大会</p>
