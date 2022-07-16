@@ -15,13 +15,12 @@ const NextUpdate: FC = () => {
     </div>
     <div className={s.topspace}></div>
       <div className={s.topspace}></div>
-        <p className={s.smallfont2}>2022</p>
         <div className={s.center}>
           <p className={s.bigfont3}>
-            9.1
+            開催日まで随時更新中!
           </p>  
           <p className={s.middlefont2}>
-            土
+            
           </p>
         </div>
         <span />

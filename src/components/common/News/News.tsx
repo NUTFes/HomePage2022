@@ -15,7 +15,7 @@ const News: FC =() => {
     <div className={s.topspace}></div>
       <div className={s.topspace}></div>
       <div className={s.minicard}>
-        <p className={s.middlefont}>7/7日<br/>・ホームページを更新しました</p>
+        <p className={s.middlefont}>7/16日<br/>・ホームページを更新しました</p>
         </div>
     </div>
   </div>

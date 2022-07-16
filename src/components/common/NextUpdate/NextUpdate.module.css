@@ -45,7 +45,7 @@
 .bigfont3 {
   font-family: 'Noto Sans JP';
   font-style: normal;
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 26px;
   text-align: center;
@@ -114,10 +114,10 @@
 
 .card span{
   display: block;
-  width: 210px;
+  width: 250px;
   height: 10px;
   background: rgba(0, 175, 204, 0.5);
-  margin-left: 66px;
+  margin-left: 35px;
   margin-top: -10px;
   -webkit-transform: skew(-17deg);
   transform: skew(-17deg);
@@ -156,9 +156,9 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     border-bottom: 210rem rgba(0, 175, 204, 0.5);
-    font-size: 10.0rem;
+    font-size: 5.0rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 10rem;
     text-align: center;
     color: #424242;
     display: inline-block;
@@ -224,8 +224,8 @@
     width: 50rem;
     height: 2rem;
     background: rgba(0, 175, 204, 0.5);
-    margin-left: 16rem;
-    margin-top: -1rem;
+    margin-left: 14rem;
+    margin-top: -4rem;
     -webkit-transform: skew(-17deg);
     -moz-transform: skew(-17deg);
     transform: skew(-17deg);
