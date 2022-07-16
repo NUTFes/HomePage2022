@@ -8,7 +8,7 @@ const Header: FC = () => {
     if (isOpenModal){
       return(
         <>
-        {console.log("aasasa")}
+        {console.log(process.env.URL)}
         <Modal show={isOpenModal} setShow={setIsOpenModal} />
         </>
       )
