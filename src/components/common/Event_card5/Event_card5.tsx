@@ -17,9 +17,9 @@ const Event_card3: FC = () => {
           <div className={g.box2}>
             <div className={g.middlefont1}>
               <p className={g.lineHeight}>
-              歌自慢集合！！<br/>
-              己の歌を技大に響かせるんだ！！<br/>
-              心に響けば景品が?? LET'S SING!!!<br/>
+                歌自慢集合!!<br/>
+                己の歌を技大に響かせるんだ!!<br/>
+                心に響けば景品が?? LETS SING!!!<br/>
               </p>
             </div>
           </div>
