@@ -19,7 +19,7 @@ const Event_card3: FC = () => {
               <p className={g.lineHeight}>
               歌自慢集合！！<br/>
               己の歌を技大に響かせるんだ！！<br/>
-              心に響けば景品が…？？LET'S SING!!!<br/>
+              心に響けば景品が?? LET'S SING!!!<br/>
               </p>
             </div>
           </div>
