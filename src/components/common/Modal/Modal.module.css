@@ -166,7 +166,7 @@
     content: "";
     position: absolute;
     top: 10%;
-    left: 1000%;
+    left: 800%;
     width: 3px; /* 棒の幅（太さ） */
     height: 54px; /* 棒の高さ */
     background: #FFFFFF; /* バツ印の色 */
