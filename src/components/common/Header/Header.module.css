@@ -44,6 +44,23 @@
   width:2.4rem;
 }
 
+@media screen and (min-width: 720px) and (max-width:960px)
+{
+  .headerimg {
+    position: absolute;
+    top: 0;
+    left: 0.1rem;
+    width: 24rem;
+  }
+
+  .topspan{
+    display: flex;
+    width: 50rem;
+    height: 11.6rem;
+    margin: auto;
+  }
+}
+
 @media screen and (min-width:960px) {
   .headerimg {
     position: absolute;

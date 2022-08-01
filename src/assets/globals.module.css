@@ -131,7 +131,86 @@
   line-height: 2.1rem;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 720px) and (max-width:960px)
+{
+  .border {
+    width: 35rem;
+    height: 1px;
+    left: 5.6rem;
+    top: 151.4rem;
+    border: 0.2px solid #424242;
+  }
+  .bigfont1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #424242;
+    margin-top: 1%;
+  }
+  .bigfont4 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 5.2rem;
+    text-align: center;
+    color: #424242;
+  }
+  .smallfont1 {
+    font-style: normal;
+    font-weight: 380;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #424242;
+  }
+  .card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
+    width: 70%;
+    height: fit-content;
+  }
+
+  .lineHeight {
+    line-height: 3.1rem;
+    font-size: 2rem;
+  }
+
+  .span {
+    position: absolute;
+    top: -0.03rem;
+    left: 7.3rem;
+    width: 0;
+    height: 0;
+    z-index:2;
+    border-top: 0.8rem solid #fff;
+    border-right: 0.8rem solid transparent;
+    border-left: 0.8rem solid transparent;
+    border-bottom: 0.2rem solid transparent;
+  }
+
+ .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.1rem solid #000;
+    border-right: 1.1rem solid transparent;
+    border-left: 1.1rem solid transparent;
+    border-bottom: 1.1rem solid transparent;
+  }
+  .column span:nth-of-type(1) {
+    position: absolute;
+    width: 30rem;
+    height: 0;
+    border-top: 3.5px solid #000;
+  }
+}
+
+
+@media (min-width: 960px) {
   .card {
     display: flex;
     justify-content: center;

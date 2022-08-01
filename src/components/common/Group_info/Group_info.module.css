@@ -29,6 +29,47 @@
 .font{
   font-size: 18px;
 }
+
+@media screen and (min-width: 720px) and (max-width:960px)
+{
+  .card {
+    margin: auto;
+    border-radius: 1px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: 50rem;
+    height: 80rem;
+    -top: -20%;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+  } 
+
+  .card img {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .card_flex{
+    display: flex;
+    justify-content: center;
+    width: 45rem;
+  }
+
+  .bigfont{
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+  }
+  
+  .font{
+    font-size: 2rem;
+  }
+}
+
+
 @media screen and (min-width: 960px)
 {
   .card {
@@ -62,6 +103,7 @@
     padding-top: 7rem;
     padding-left: 1 rem;
   }
+
   .font{
     font-size: 3rem;
   }

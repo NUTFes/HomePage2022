@@ -124,6 +124,51 @@
   z-index: -1;
 }
 
+@media screen and (min-width: 720px) and (max-width:960px)
+{
+  .card {
+    margin: auto;
+    border-radius: 1px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: 50rem;
+    height: 60rem;
+    -top: -20%;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+  } 
+
+  .minicard {
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+    width: 40rem;
+    height: 30rem;
+    background: #FFFFFF;
+  }
+
+  .card span{
+    display: block;
+    width: 30rem;
+    height: 1rem;
+    background: rgba(0, 175, 204, 0.5);
+    margin-left: 10rem;
+    margin-top: -1rem;
+    -webkit-transform: skew(-17deg);
+    -moz-transform: skew(-17deg);
+    transform: skew(-17deg);
+    z-index: -1;
+  }
+  .middlefont {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 4.0rem;
+    color: #424242;
+    margin-bottom: 100px;
+  }
+}
+
 @media screen and (min-width: 960px)
 {
   .border {
@@ -231,6 +276,7 @@
     transform: skew(-17deg);
     z-index: -1;
   }
+
   .topspace {
     margin-top: 3rem;
   }

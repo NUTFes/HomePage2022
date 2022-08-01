@@ -88,6 +88,51 @@
   padding-bottom: 3rem;
 }
 
+@media screen and (min-width: 720px) and (max-width:960px)
+{
+  .snsSubTitle{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1.5rem;
+    color: #424242;
+  }
+
+  .snsLogoFacebook img {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .snsLogoTwitter img { 
+    height: 3rem;
+    width: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .snsLogoInstagram img {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .span{
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
 @media screen and (min-width: 960px)
 {
   .snsSubTitle{
