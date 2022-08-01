@@ -123,6 +123,31 @@
   transform: skew(-17deg);
   z-index: -1;
 }
+@media screen and (min-width: 720px) and (max-width:960px)
+{
+  .card {
+    margin: auto;
+    border-radius: 1px;
+    background: #FFFFFF;
+    box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
+    width: 50rem;
+    height: 60rem;
+    -top: -20%;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+  } 
+
+  .minicard {
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
+    width: 40rem;
+    height: 35rem;
+    background: #FFFFFF;
+  }
+ 
+ 
+}
 
 @media screen and (min-width: 960px)
 {
