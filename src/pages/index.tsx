@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       <Group_info/>
       {/* <Groups/>  */}
       <NextUpdate/>
-      <Access/>
+      {/* <Access/> */}
       <Sns/>
       <Footer/>
     </>
