@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import ChairmanMessage from '../components/common/ChairmanMessage'
 import Footer from '../components/common/Footer'
 import PresidentMessageTitle from '../components/common/PresidentMessageTitle'
 import Sns from '../components/common/Sns'
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <PresidentMessageTitle/>
+      <ChairmanMessage/>
       <Sns/>
       <Footer/>
     </>
