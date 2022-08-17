@@ -4,6 +4,7 @@ import Footer from "../components/common/Footer";
 import Sns from "../components/common/Sns";
 import Group_title from "../components/common/Group_title ";
 import Group_card from "../components/common/Group_card";
+import Group_courus from "../components/common/Group_courus";
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <Group_title />
-      <Group_card />
+      <Group_courus/>
       <Sns />
       <Footer />
     </>
