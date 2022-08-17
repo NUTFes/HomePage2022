@@ -7,10 +7,10 @@ const Event_card1: FC = () => {
       <div className={g.card}>
         <div className={g.box1}>
           <p className={g.bigfont1}>学籍番号抽選会</p>
-          {<div className={g.column}><span className={g.border1}/>
+          <div className={g.column}><span className={g.border1}/>
             <div className={g.triangle}></div><div className={g.span}></div> 
             <span className={g.border3}/>
-          </div>}
+          </div>
         </div>
         <div className={g.center2}>
 	        <img className={g.image} src="event_lottery.jpg" />
@@ -21,7 +21,6 @@ const Event_card1: FC = () => {
               技大祭の締めに運試し！<br/>
               学生証をお忘れなく！！！<br/>
               ※学生証がないと参加できません汗汗
-
               </p>
             </div>
           </div>
