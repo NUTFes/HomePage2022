@@ -15,7 +15,7 @@ const ChairmanMessage: FC =() => {
         </div>}
       </div>
       <div className={g.center2}>
-        <img className={g.image} src="" />
+        <img className={s.image} src="nakai.JPG" />
         <div className={g.box2}>
           <div className={g.middlefont1}>
             <p className={s.lineHeight} >
