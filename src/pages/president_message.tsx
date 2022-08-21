@@ -3,6 +3,7 @@ import Head from 'next/head'
 import ChairmanMessage from '../components/common/ChairmanMessage'
 import Footer from '../components/common/Footer'
 import PresidentMessageTitle from '../components/common/PresidentMessageTitle'
+import PresidentMessage from '../components/common/PresidentMessage'
 import Sns from '../components/common/Sns'
 
 const Home: NextPage = () => {
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <PresidentMessageTitle/>
+      <PresidentMessage/>
       <ChairmanMessage/>
       <Sns/>
       <Footer/>
