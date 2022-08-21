@@ -1,0 +1,15 @@
+.image {
+  width: 28.4rem;
+  height: auto;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+@media (min-width: 960px) {
+  .image {
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
+    width: 70rem;
+    height: auto;
+  }
+}

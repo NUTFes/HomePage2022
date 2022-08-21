@@ -6,6 +6,7 @@ import Group_title from "../components/common/Group_title ";
 import Group_card from "../components/common/Group_card";
 import Group_courus from "../components/common/Group_courus";
 import StreetStyle from "../components/common/StreetStyle";
+import YukyuDrum from "../components/common/YukyuDrum";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <Group_title />
+      <YukyuDrum/>
       <Group_courus/>
       <StreetStyle/>
       
