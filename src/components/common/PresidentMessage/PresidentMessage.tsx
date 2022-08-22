@@ -5,7 +5,7 @@ import s from './PresidentMessage.module.css'
 
 const PresidentMessage: FC =() => {
   return(
-    <div id='stickee' className={g.center1}>
+    <div id='president' className={g.center1}>
     <div className={g.card}>
       <div className={g.box1}>
         <p className={g.bigfont1}>学長挨拶</p>
