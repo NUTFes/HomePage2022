@@ -123,6 +123,12 @@
   transform: skew(-17deg);
   z-index: -1;
 }
+
+.link {
+  color: cadetblue;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 720px) and (max-width:960px)
 {
   .card {
