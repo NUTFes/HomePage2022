@@ -15,6 +15,15 @@ const News: FC =() => {
     <div className={s.topspace}></div>
       <div className={s.topspace}></div>
       <div className={s.minicard}>
+        <p className={s.middlefont}>
+        <p className={s.important}>重要なお知らせ</p>
+        第41回技大祭は、新型コロナウイルス感染症の
+        拡大防止のため、対面での参加は、
+        学内の学生及び教職員のみとなりました。<br/>
+        学外の皆様は、オンライン配信などで
+        ご参加頂きますようお願いいたします</p>
+        <p className={s.middlefont} >8月28日<br/>
+        <a href={process.env.URL+'/map'} className={s.link}>・校内マップページを更新しました</a></p>
         <p className={s.middlefont} >8月22日<br/>
         <a href={process.env.URL+'/president_message'} className={s.link}>・代表挨拶ページを更新しました</a></p>
         <p className={s.middlefont}>7月16日<br/>・ホームページを更新しました</p>

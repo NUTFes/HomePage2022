@@ -5,7 +5,7 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px 1px rgba(0, 175, 204, 0.25);
   width: 33rem;
-  height: 40rem;
+  height: 60rem;
   -top: 20%;
   padding-top: 2rem;
 }
@@ -14,8 +14,8 @@
   margin: auto;
   margin-top: 44px;
   box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
-  width: 260px;
-  height: 250px;
+  width: 300px;
+  height: 430px;
   background: #FFFFFF;
 }
 
@@ -61,11 +61,13 @@
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 350;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: left;
   color: #424242;
   padding-top: 15px;
   text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .middlefont2 {
@@ -127,6 +129,14 @@
 .link {
   color: cadetblue;
   text-decoration: underline;
+}
+
+.important{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 5.0rem;
+  color: red;
 }
 
 @media screen and (min-width: 720px) and (max-width:960px)
@@ -199,10 +209,12 @@
   .middlefont {
     font-style: normal;
     font-weight: 500;
-    font-size: 4rem;
-    line-height: 6.0rem;
+    font-size: 3rem;
+    line-height: 5.0rem;
     color: #424242;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
   .middlefont2 {
     font-family: 'Noto Sans JP';
@@ -237,7 +249,7 @@
     background: #FFFFFF;
     box-shadow: 10px 20px 20px 4px rgba(0, 175, 204, 0.25);
     width: 80rem;
-    height: 100rem;
+    height: 120rem;
     -top: -20%;
     padding-top: 5rem;
     margin-bottom: 20rem;
@@ -247,7 +259,7 @@
     margin-top: 70px;
     box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.25);
     width: 70rem;
-    height: 60rem;
+    height: 83rem;
     background: #FFFFFF;
   }
   .card span{
@@ -265,5 +277,11 @@
   .topspace {
     margin-top: 3rem;
   }
- 
+  .important{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 5.0rem;
+    color: red;
+  }
 }
