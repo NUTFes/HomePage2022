@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import Schedule1 from ".";
 import c from "../../../components/common/Schedule1/Schedule1.module.css";
 
 const Schedule1: FC = () => {
