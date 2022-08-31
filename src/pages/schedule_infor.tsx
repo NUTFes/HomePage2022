@@ -5,6 +5,7 @@ import Sns from "../components/common/Sns";
 import Group_title from "../components/common/Group_title ";
 import Schedule1 from "../components/common/Schedule1";
 import Schedule_title from "../components/common/Schedule_title";
+import Schedule2 from "../components/common/Schedule2";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       </Head>
       <Schedule_title />
       <Schedule1 />
+      <Schedule2/>
       <Sns />
       <Footer />
     </>
