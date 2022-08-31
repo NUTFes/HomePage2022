@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Schedule from '../components/common/ScheduleTitle/ScheduleTitle'
 import Footer from '../components/common/Footer'
 import Sns from '../components/common/Sns'
+import Schedule2 from '../components/common/Schedule2'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <Schedule/>
+      <Schedule2/>
       <Sns/>
       <Footer/>
     </>
