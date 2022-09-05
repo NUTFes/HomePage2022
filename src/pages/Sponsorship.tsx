@@ -4,6 +4,7 @@ import Footer from '../components/common/Footer'
 import Sns from '../components/common/Sns'
 import Sponsorship_title from '../components/common/Sponsorship_title'
 import Sponsor from '../components/common/Sponsor'
+import TeacherSponsor from '../components/common/TeacherSponsor'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       </Head>
       <Sponsorship_title/>
       <Sponsor/>
+      <TeacherSponsor/>
       <Sns/>
       <Footer/>
     </>
