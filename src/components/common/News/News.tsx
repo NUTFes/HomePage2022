@@ -25,13 +25,14 @@ const News: FC =() => {
         学外の皆様は、オンライン配信などで
         ご参加頂きますようお願いいたします
         </p>
+        <p className={s.middlefont} >9月5日<br/>
+        <a href={process.env.URL+'/consideration'} className={s.link}>・来場される方はこちらをお読みください</a></p>
         <p className={s.middlefont} >9月1日<br/>
         <a href={process.env.URL+'/schedule_infor'} className={s.link}>・当日スケジュールページを更新しました</a></p>
         <p className={s.middlefont} >8月28日<br/>
         <a href={process.env.URL+'/map'} className={s.link}>・校内マップページを更新しました</a></p>
         <p className={s.middlefont} >8月22日<br/>
         <a href={process.env.URL+'/president_message'} className={s.link}>・代表挨拶ページを更新しました</a></p>
-        <p className={s.middlefont}>7月16日<br/>・ホームページを更新しました</p>
         </div>
     </div>
   </div>
