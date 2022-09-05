@@ -11,7 +11,7 @@ const Map: FC =() => {
       <div className={g.bigfont2}>校内マップ</div>
       <span className={g.border} />
     </div>
-    <img className={s.image} src="Map.png" />
+    <img className={s.image} src="nutfes_map.png" />
   </div>  
   );
 };
