@@ -30,11 +30,11 @@ const News: FC = () => {
             <a href={process.env.URL + '/Sponsorship'} className={s.link}>・ご協賛・募金一覧を公開しました</a>
           </p>
           <p className={s.middlefont} >9月1日<br />
-            <a href={process.env.URL + '/schedule_infor'} className={s.link}>・当日スケジュールページを更新しました</a></p>
+            <a href={process.env.URL + '/schedule_infor'} className={s.link}>・当日スケジュールページを公開しました</a></p>
           <p className={s.middlefont} >8月28日<br />
-            <a href={process.env.URL + '/map'} className={s.link}>・校内マップページを更新しました</a></p>
+            <a href={process.env.URL + '/map'} className={s.link}>・校内マップページを公開しました</a></p>
           <p className={s.middlefont} >8月22日<br />
-            <a href={process.env.URL + '/president_message'} className={s.link}>・代表挨拶ページを更新しました</a></p>
+            <a href={process.env.URL + '/president_message'} className={s.link}>・代表挨拶ページを公開しました</a></p>
         </div>
       </div>
     </div >
