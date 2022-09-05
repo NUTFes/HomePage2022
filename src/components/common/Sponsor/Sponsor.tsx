@@ -18,11 +18,7 @@ const Sponsor: FC =() => {
       <div className={g.bigfont2}>
           麺場　風雷房<br/>
           株式会社　文化<br/>
-          ナジラビの会社<br/>
           株式会社　生活情報新聞社<br/>
-          まるごと生活情報の会社<br/>
-          長岡市役所　広報課<br/>
-          市政だよりの担当部署<br/>
           株式会社　リンクス<br/>
         </div>
       </div>
