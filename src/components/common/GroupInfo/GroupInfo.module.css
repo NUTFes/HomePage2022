@@ -1,0 +1,35 @@
+.image {
+  width: 28.4rem;
+  height: auto;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.bigfont1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #424242;
+}
+
+@media (min-width: 960px) {
+  .image {
+    margin-top: 4rem;
+    margin-bottom: 1.6rem;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .bigfont1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 10.5rem;
+    text-align: center;
+    color: #424242;
+    margin-top: 1%;
+  }
+}
