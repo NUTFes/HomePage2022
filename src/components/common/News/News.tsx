@@ -25,6 +25,9 @@ const News: FC = () => {
             学外の皆様は、オンライン配信などで
             ご参加頂きますようお願いいたします
           </p>
+          <p className={s.middlefont} >9月7日<br />
+            <a href={process.env.URL + '/participation_group_infor'} className={s.link}>・参加団体情報ページを公開しました</a><br />
+          </p>
           <p className={s.middlefont} >9月5日<br />
             <a href={process.env.URL + '/consideration'} className={s.link}>・来場される方はこちらをお読みください</a><br />
             <a href={process.env.URL + '/Sponsorship'} className={s.link}>・ご協賛・募金一覧を公開しました</a>
