@@ -31,10 +31,9 @@ const Group_info: FC =() => {
       </div>
       <div className={s.card_flex}>
         <div>
-        <img src='/purchase.jpg'/>
+        <img src='/world.jpeg'/>
         </div>
-        <p className={s.bigfont}>物販<p className={s.font}>空いた小腹に<br/>ダイレクトインッ!</p></p>
-        
+        <p className={s.bigfont}>物販<p className={s.font}>世界の特産品を<br/>購入可能</p></p>
       </div>
     </div>
   );
