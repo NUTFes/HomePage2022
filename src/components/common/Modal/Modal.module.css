@@ -114,6 +114,7 @@
 
   .modalContent {
     width: 38%;
+    min-width: 500px;
     z-index: 15;
     display: flex;
     justify-content: center;
