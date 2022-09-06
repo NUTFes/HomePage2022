@@ -25,7 +25,7 @@ const GroupInfo: FC = () => {
     {title: "Mexico", image:"Mexico.png", content: "メキシコの中・南部の伝統的なダンスと世界中に有名なプロレスのパーフォーマンスを一緒に楽しみましょう！"},
     {title: "NUTソフトウェア", image:"mikunological.png", content: "ボーカロイドによるバーチャルライブを開催します!よろしくお願いします！"},
     {title: "Popular Music Club", image:"PMC.png", content: "ロック・JPOP・メタル・テクノなど…様々なジャンルのバンドが出演!PMCと好きな音楽を自由に楽しもう!!!"},
-    {title: "VYSAN", image:"VYSAN.png", content: "We will sing and dance to our vietnamese song! Let's enjoy it together!"},
+    {title: "VYSAN", image:"VYSAN.png", content: "We will sing and dance to our vietnamese song! Lets enjoy it together!"},
     {title: "実践空手道部", image:"karate.png", content: "空手の型を披露したり，板割や瓦割をします。迫力満点なので，是非ともお越しください！"},
     {title: "吹奏楽部", image:"brass_band.png", content: "吹奏楽部です。技大祭では誰もが聴いたことのあるディズニーの名曲や吹奏楽の定番曲である宝島を演奏します。ぜひお越しください！"},
   ]
