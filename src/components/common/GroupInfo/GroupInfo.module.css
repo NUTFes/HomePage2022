@@ -14,6 +14,19 @@
   color: #424242;
 }
 
+.group_info_list {
+  margin-bottom: 1rem;
+}
+
+.group_info_contents {
+  padding: 0.5rem 2rem;
+}
+
+.group_info_content {
+  line-height: 2rem;
+  font-size: 16px;
+}
+
 @media (min-width: 960px) {
   .image {
     margin-top: 4rem;
@@ -31,5 +44,14 @@
     text-align: center;
     color: #424242;
     margin-top: 1%;
+  }
+
+  .group_info_contents {
+    padding: 0.5rem 3rem;
+  }
+
+  .group_info_content {
+    line-height: 3.1rem;
+    font-size: 2.5rem;
   }
 }
