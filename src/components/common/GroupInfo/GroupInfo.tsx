@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import s from "./GroupInfo.module.css"
 import g from '../../../assets/globals.module.css';
-import { group } from "console";
 
 const GroupInfo: FC = () => {
   const groupInfoList =
@@ -20,15 +19,15 @@ const GroupInfo: FC = () => {
       { title: "Madina", image: "Malaysia.png", content: "マレーシアの伝統的な服の展示会を開催します。\n興味がある方は是非お越しください。" },
       { title: "中国学友会", image: "china.png", content: "三国時代の智勇交わる攻城戦、智謀を展示が盛りだくさん！" },
       { title: "コーヒーサークル", image: "coffee.png", content: "技大祭初出店です！\nコーヒー豆を販売しています。\nぜひお越しください！" },
-      { title: "空撮ラボ", image: "aerial_lab.png", content: "空撮ラボではドローンで撮影した写真の展示やトイドローンの操縦体験を行っています。" },
+      { title: "空撮ラボ", image: "aerial_lab.png", content: "空撮ラボではドローンで撮影した写真の展示や\nトイドローンの操縦体験を行っています。" },
       { title: "折り紙サークル", image: "origami.png", content: "作品展示や折り紙教室を行っています.\nぜひ遊びに来てください！" },
       { title: "How to Art", image: "HowtoArt.png", content: "プラ板キーホルダー制作体験、部員の作品展示、販売など" },
-      { title: "Mexico", image: "Mexico.png", content: "メキシコの中・南部の伝統的なダンスと世界中に有名なプロレスのパーフォーマンスを一緒に楽しみましょう！" },
+      { title: "Mexico", image: "Mexico.png", content: "メキシコの中・南部の伝統的なダンスと世界中に有名なプロレスの\nパーフォーマンスを一緒に楽しみましょう！" },
       { title: "NUTソフトウェア", image: "mikunological.png", content: "ボーカロイドによるバーチャルライブを開催します!\nよろしくお願いします！" },
       { title: "Popular Music Club", image: "PMC.png", content: "ロック・JPOP・メタル・テクノなど…様々なジャンルのバンドが出演!\nPMCと好きな音楽を自由に楽しもう!!!" },
       { title: "VYSAN", image: "VYSAN.png", content: "We will sing and dance to our vietnamese song!\n Lets enjoy it together!" },
       { title: "実践空手道部", image: "karate.png", content: "空手の型を披露したり，板割や瓦割をします。\n迫力満点なので，是非ともお越しください！" },
-      { title: "吹奏楽部", image: "brass_band.png", content: "吹奏楽部です。\n技大祭では誰もが聴いたことのあるディズニーの名曲や吹奏楽の定番曲である宝島を演奏します。\nぜひお越しください！" },
+      { title: "吹奏楽部", image: "brass_band.png", content: "吹奏楽部です。\n技大祭では誰もが聴いたことのある\nディズニーの名曲や吹奏楽の定番曲である宝島を演奏します。\nぜひお越しください！" },
     ]
   return (
     <>
