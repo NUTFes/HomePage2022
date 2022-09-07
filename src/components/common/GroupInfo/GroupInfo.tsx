@@ -48,7 +48,7 @@ const GroupInfo: FC = () => {
                   <div className={g.middlefont1}>
                     <div className={s.group_info_contents}>
                       {groupInfo.content.split('\n').map((content) => (
-                        <p className={s.group_info_content}>{content}</p>
+                        <p className={s.group_info_content} key={content} >{content}</p>
                       ))}
                     </div>
                   </div>
