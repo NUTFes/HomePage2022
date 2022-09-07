@@ -27,6 +27,7 @@ const News: FC = () => {
           </p>
           <p className={s.middlefont} >9月7日<br />
             <a href={process.env.URL + '/participation_group_infor'} className={s.link}>・参加団体情報ページを公開しました</a><br />
+            <a href="https://pamphlet.nutfes.net/" className={s.link}>・電子パンフレットを公開しました</a><br />
           </p>
           <p className={s.middlefont} >9月5日<br />
             <a href={process.env.URL + '/consideration'} className={s.link}>・来場される方はこちらをお読みください</a><br />

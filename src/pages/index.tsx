@@ -10,6 +10,7 @@ import TopPage from '../components/common/TopPage'
 import Event_info from '../components/common/Event_info'
 import Group_info from '../components/common/Group_info'
 import News from '../components/common/News'
+import ElectronicBrochure from '../components/common/ElectronicBrochure'
 
 const Home: NextPage = () => {
   return (
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
       {/* <Groups/>  */}
       <NextUpdate/>
       {/* <Access/> */}
+      <ElectronicBrochure/>
       <Sns/>
       <Footer/>
     </>
