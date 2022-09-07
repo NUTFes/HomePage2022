@@ -3,10 +3,6 @@ import Head from "next/head";
 import Footer from "../components/common/Footer";
 import Sns from "../components/common/Sns";
 import Group_title from "../components/common/Group_title ";
-import Group_card from "../components/common/Group_card";
-import Group_courus from "../components/common/Group_courus";
-import StreetStyle from "../components/common/StreetStyle";
-import YukyuDrum from "../components/common/YukyuDrum";
 import GroupInfo from "../components/common/GroupInfo";
 
 const Home: NextPage = () => {

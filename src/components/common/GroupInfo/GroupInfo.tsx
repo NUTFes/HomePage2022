@@ -32,7 +32,7 @@ const GroupInfo: FC = () => {
   return(
     <>
       {groupInfoList.map((groupInfo) => (
-        <div className={g.center1}>
+        <div className={g.center1} key = {groupInfo.title}>
           <div className={g.card}>
             <div className={g.box1}>
               <p className={s.bigfont1}>{groupInfo.title}</p>
