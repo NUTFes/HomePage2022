@@ -16,6 +16,7 @@ const Sns: FC = () => {
           <a className={s.span} href={process.env.URL+'#news'}>お知らせ</a>
           <a className={s.span} href={process.env.URL+'#event'}>技大祭企画</a>
           <a className={s.span} href={process.env.URL+'#group'}>参加団体</a>
+          <a className={s.span} href="https://pamphlet.nutfes.net/">電子パンフレット</a>
         </div>
       </div>
   );
