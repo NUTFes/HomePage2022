@@ -1,0 +1,40 @@
+.bigfont1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #424242;
+}
+
+.live_list {
+  margin-bottom: 1rem;
+}
+
+.youtube {
+  padding-top: 15px;
+}
+
+@media (min-width: 960px) {
+  .bigfont1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 10.5rem;
+    text-align: center;
+    color: #424242;
+    margin-top: 1%;
+  }
+
+  .live_list {
+    margin-bottom: 1rem;
+  }
+
+  .youtube {
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    padding-top: 30px;
+  }
+}
