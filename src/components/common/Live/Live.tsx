@@ -9,8 +9,10 @@ const Live: FC = () => {
       { title: "1日目 D講義室 ライブ配信", videoId: '_xl90aQIMYA' },
       { title: "1日目 A講義室 ライブ配信", videoId: "esypa-Yxopk" },
       { title: "2日目 D講義室 ライブ配信", videoId: "9B2MGGQ2Z78" },
-      { title: "1日目 体育館 ライブ配信", videoId: "RbY10F3Vcwc" },
-      { title: "2日目 体育館 ライブ配信", videoId: "xQq-ch8d9PE" },
+      { title: "1日目 体育館 午前の部 ライブ配信", videoId: "RbY10F3Vcwc" },
+      { title: "1日目 体育館 午後の部 ライブ配信", videoId: "uuDH2jyeTT4" },
+      { title: "2日目 体育館 午前の部  ライブ配信", videoId: "xQq-ch8d9PE" },
+      { title: "2日目 体育館 午後の部 ライブ配信", videoId: "m-udIeCFzeA" },
     ]
 
   const [isPC, setIsPC] = useState(true);
