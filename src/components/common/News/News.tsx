@@ -25,6 +25,9 @@ const News: FC = () => {
             学外の皆様は、オンライン配信などで
             ご参加頂きますようお願いいたします
           </p>
+          <p className={s.middlefont} >9月9日<br />
+            <a href={process.env.URL + '/live'} className={s.link}>・YouTubeライブ配信ページを公開しました</a><br />
+          </p>
           <p className={s.middlefont} >9月7日<br />
             <a href={process.env.URL + '/participation_group_infor'} className={s.link}>・参加団体情報ページを公開しました</a><br />
             <a href="https://pamphlet.nutfes.net/" className={s.link}>・電子パンフレットを公開しました</a><br />
