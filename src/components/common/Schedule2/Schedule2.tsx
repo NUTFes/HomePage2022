@@ -8,9 +8,9 @@ const Schedule2: FC = () => {
         <p className={c.bigfont1}>2日目</p>
 
         <div className={c.box1}>
-          <img className={c.image} src="day2_sunny.png" />
+          <img className={c.image} src="day2.png" />
 
-          <img className={c.image} src="day2_rain.png" />
+          <img className={c.image} src="day2_raining.png" />
         </div>
       </div>
     </div>
