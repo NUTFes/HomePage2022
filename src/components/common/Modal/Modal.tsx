@@ -49,7 +49,7 @@ const Modal: FC<ModalProps> = (props) => {
           <a href={process.env.URL + '/president_message#president'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >学長挨拶</a>
           <a href={process.env.URL + '/president_message#chairman'} className={s.modalSubIndex} onClick={() => props.setShow(false)} >委員長挨拶</a>
           <a href={process.env.URL + '/schedule_infor'} className={s.modalIndex} onClick={() => props.setShow(false)} >当日スケジュール</a>
-          <a href={process.env.URL + '/live'} className={s.modalIndex} onClick={() => props.setShow(false)} >Youtubeライブ配信</a>
+          <a href={process.env.URL + '/live'} className={s.modalIndex} onClick={() => props.setShow(false)} >YouTubeライブ配信</a>
           <a href={process.env.URL + '/map'} className={s.modalIndex} onClick={() => props.setShow(false)} >校内マップ</a>
           <a href={process.env.URL + '/consideration'} className={s.modalIndex} onClick={() => props.setShow(false)} >留意事項</a>
           <a href={process.env.URL + '/Sponsorship'} className={s.modalIndex} onClick={() => props.setShow(false)} >ご協賛・募金一覧</a>
