@@ -25,6 +25,9 @@ const News: FC = () => {
             学外の皆様は、オンライン配信などで
             ご参加頂きますようお願いいたします
           </p>
+          <p className={s.middlefont} >9月10日<br />
+            <a href="https://forms.gle/779bkdUqbFKBpXF99" className={s.link}>・アンケートのご協力お願いします。</a><br />
+          </p>
           <p className={s.middlefont} >9月9日<br />
             <a href={process.env.URL + '/live'} className={s.link}>・YouTubeライブ配信ページを公開しました</a><br />
           </p>
